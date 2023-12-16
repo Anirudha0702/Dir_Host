@@ -1,0 +1,54 @@
+dl {
+    list-style-type: none;
+    padding-block: 0.5rem;
+    overflow: scroll;
+    background-color: rgb(94, 95, 94);
+    width: 15rem;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+dd{
+    display: list-item;
+    list-style-type: "📂";
+    margin-left: 2ch;
+    padding: 0;
+    cursor: pointer;
+}
+dt{
+    display: list-item;
+    list-style-type: "📄";
+    margin-left: 2ch;
+    cursor: pointer;
+}
+body{
+    color: white;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wrapper{
+    display: flex;
+    height: 100vh;
+}
+.editor{
+    width: 50%;
+    flex-grow: 1;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    padding: 1rem;
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
